@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#141011">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Red Book">
+<link rel="apple-touch-icon" sizes="180x180" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAMAAAAKE/YAAAAAwFBMVEXgvzvcujrbuTnauDnXtDjWsTjVsTfUrzfTrTfRqzbQqTbOpzXNpzXNpjXMpTXKojS4ii+ufCydZSeMTiJ7Nx5zLBtqIRhmGxdmGhdlGhdkGBdgExZgExVgEhZgEhVfEhVfERVeERVkEBVjEBViEBVgEBVfEBVeEBVdEBVcEBVZEBVVEBVKEBQ7EBMqEBIZEBEYEBEVEBEUEBETEBEREBEQEBEPEBFcDhRcDRRbDBRZChRZCRNZCBNXBxNWBRJUAxK3sXHZAAAEJ0lEQVR42u3d75upWhQH8FJHxZGSntCoPQiDEJEo/v//6jTP8WMw4465yt33+a7X2J9nWa3dq7WYGYXBAA000EADDTTQ/0u0l8T8CfF+7g/R3sxfLvzpJPOY+oulP/N+gPbmy9nYHY0GT4jRyB3PlnPvTnRCnrhDp93pdJ8QnU7bGbqTL9mfo73F1B20nV6/3+89Id6PddoDd7rw7kAvx8NW9zngE7zbGo6X30f7ruO89Z4eb47j+t9FL9zWc7N8ynbLXXwP7butt95/JN5an+X6Cu0tr82vJLN4vVYvvX9Ce4uxc14atmkHq8wiSI47LxFnfNVDLtHz6fAMbZFoFzWMWkZhNJLjiHWGHk7nt9EXxUFIHFYrSrkkZxSlslKphjEhNwvkAj2fDLofKmMVawrPcnz+Vz6T+JXnOZZXtHj1oUa6g8n8Fvo90afieIkMhePEgiRkZE7UglQQOU4xopdTgVyl+rI8hs7xw+ZWl3OiJORYMav6KJVFNidIYk7Wt+YR4gxvlYfnj7vHRFsbvcBLEieomp7Vk2g0dE0VOEniC/rm+Dj2u2Pf+xq9dNsHNFkZMi8JrKrH2zCznheE21hXWUHiZWN1eBr77Yv6OEcvRid0rOQkgdfitdkkmd0ur6RprmONF6ScEp/Qo8UNtD/q7NFWrHGiyGo7y8766ratncaKIqfF+wLpd0Y3ymM+PTY8EiqclFNji2T/wkGsWM1JnBKSY9M7v1+Yz7u0HVV5URD0zVme0yyMs1xvdEEQ+Wpkf96pv0CbuworseqHvtOzm700H8Fe80N+zK2aHF/ZmXehSaRyEqud0IRE26BWTy1qwTY6pdvcaqzEqRG5B02CRpkXRH19+Bk73FRVpVBMLQqKWt2Eh2STtS4KfLkRkHvQK+N3Pi83Dq3SigyVZbhSeugSx7CqEVmHS6Ih5/O/D636u+ha8qVjf7civczIFb2eYugVmSnre/X7zZacX/sJev8lEhplRjV26xQvxmC9M1SmbPxtc+fn/wy9URl1G5p2ihfjq22G2+SYzYPQdlxlZSN8SftOeQkNma3G9kPQzSQDx5aZZiSXQ/KPNh9THoHCXVyNKb10bHROCR5SHsmTXCzVVxm8g5BVvVQ0/p75r9H1YjEr9P4koIEGGmiggQYaaKCBBhpooIEGGmiggQYaaKCBBhpooIEGGmiggQYaaKCBBhpooIEGGmiggQYaaKCBBhpooIEGGmiggQYaaKCBBhpooIGmEU3hWAEqBzjQOSqDyqEkVI5/oWzQDm0jjWgcHkXjmC4qB6LROXqOpiF/NI5TpHJwJZ0jQqkcxkrj2FsqBwxTOsqZxqHZdI4np3IQPJ0j96lcbkDnGglKF3bQuRqFziU0dK77oXKxEp0rrChdFkbpWjZs7QMaaKCBBhpooB8efwBDaZICibm25AAAAABJRU5ErkJggg==">
+<link rel="manifest" href="data:application/manifest+json;base64,eyJuYW1lIjoiTWFyayBCbHVuZGVsbCDigJQgVGhpcyBJcyBZb3VyIExpZmUiLCJzaG9ydF9uYW1lIjoiUmVkIEJvb2siLCJkaXNwbGF5Ijoic3RhbmRhbG9uZSIsImJhY2tncm91bmRfY29sb3IiOiIjMTQxMDExIiwidGhlbWVfY29sb3IiOiIjMTQxMDExIiwiaWNvbnMiOlt7InNyYyI6ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBTFFBQUFDMENBTUFBQUFLRS9ZQUFBQUF3RkJNVkVYZ3Z6dmN1anJidVRuYXVEblh0RGpXc1RqVnNUZlVyemZUclRmUnF6YlFxVGJPcHpYTnB6WE5walhNcFRYS29qUzRpaSt1ZkN5ZFpTZU1UaUo3Tng1ekxCdHFJUmhtR3hkbUdoZGxHaGRrR0JkZ0V4WmdFeFZnRWhaZ0VoVmZFaFZmRVJWZUVSVmtFQlZqRUJWaUVCVmdFQlZmRUJWZUVCVmRFQlZjRUJWWkVCVlZFQlZLRUJRN0VCTXFFQklaRUJFWUVCRVZFQkVVRUJFVEVCRVJFQkVRRUJFUEVCRmNEaFJjRFJSYkRCUlpDaFJaQ1JOWkNCTlhCeE5XQlJKVUF4SzNzWEhaQUFBRUowbEVRVlI0MnUzZDc1dXBXaFFIOEZKSHhaR1NudENvUFFpREVKRW8vdi8vNmpUUDhXTXc0NDY1eXQzMythN1gySjluV2EzZHE3V1lHWVhCQUEwMDBFQUREVFRRLzB1MGw4VDhDZkYrN2cvUjNzeGZMdnpwSlBPWStvdWxQL04rZ1BibXk5bllIWTBHVDRqUnlCM1BsblB2VG5SQ25yaERwOTNwZEo4UW5VN2JHYnFUTDltZm83M0YxQjIwblY2LzMrODlJZDZQZGRvRGQ3cnc3a0F2eDhOVzl6bmdFN3piR282WDMwZjdydU84OVo0ZWI0N2ordDlGTDl6V2M3Tjh5bmJMWFh3UDdidXR0OTUvSk41YW4rWDZDdTB0cjgydkpMTjR2Vll2dlg5Q2U0dXhjMTRhdG1rSHE4d2lTSTQ3THhGbmZOVkRMdEh6NmZBTWJaRm9GeldNV2taaE5KTGppSFdHSGs3bnQ5RVh4VUZJSEZZclNya2taeFNsc2xLcGhqRWhOd3ZrQWoyZkRMb2ZLbU1WYXdyUGNueitWejZUK0pYbk9aWlh0SGoxb1VhNmc4bjhGdm85MGFmaWVJa01oZVBFZ2lSa1pFN1VnbFFRT1U0eG9wZFRnVnlsK3JJOGhzN3h3K1pXbDNPaUpPUllNYXY2S0pWRk5pZElZazdXdCtZUjRneHZsWWZuajd2SFJGc2J2Y0JMRWllb21wN1ZrMmcwZEUwVk9FbmlDL3JtK0RqMnUyUGYreHE5ZE5zSE5Ga1pNaThKcktySDJ6Q3puaGVFMjFoWFdVSGlaV04xZUJyNzdZdjZPRWN2UmlkMHJPUWtnZGZpdGRra21kMHVyNlJwcm1PTkY2U2NFcC9RbzhVTnREL3E3TkZXckhHaXlHbzd5ODc2NnJhdG5jYUtJcWZGK3dMcGQwWTN5bU0rUFRZOEVpcWNsRk5qaTJUL3drR3NXTTFKbkJLU1k5TTd2MStZejd1MEhWVjVVUkQwelZtZTB5eU1zMXh2ZEVFUStXcGtmOTZwdjBDYnV3b3JzZXFIdnRPem03MDBIOEZlODBOK3pLMmFIRi9abVhlaFNhUnlFcXVkMElSRTI2QldUeTFxd1RZNnBkdmNhcXpFcVJHNUIwMkNScGtYUkgxOStCazczRlJWcFZCTUxRcUtXdDJFaDJTVHRTNEtmTGtSa0h2UUsrTjNQaTgzRHEzU2lneVZaYmhTZXVnU3g3Q3FFVm1IUzZJaDUvTy9ENjM2dStoYThxVmpmN2NpdmN6SUZiMmVZdWdWbVNucmUvWDd6WmFjWC9zSmV2OGxFaHBsUmpWMjZ4UXZ4bUM5TTFTbWJQeHRjK2ZuL3d5OVVSbDFHNXAyaWhmanEyMkcyK1NZellQUWRseGxaU044U2Z0T2VRa05tYTNHOWtQUXpTUUR4NWFaWmlTWFEvS1BOaDlUSG9IQ1hWeU5LYjEwYkhST0NSNVNIc21UWEN6VlZ4bThnNUJWdlZRMC9wNzVyOUgxWWpFcjlQNGtvSUVHR21pZ2dRWWFhS0NCQmhwb29JRUdHbWlnZ1FZYWFLQ0JCaHBvb0lFR0dtaWdnUVlhYUtDQkJocG9vSUVHR21pZ2dRWWFhS0NCQmhwb29JRUdHbWlnZ1FZYWFLQ0JCaHBvb0lHbUVVM2hXQUVxQnpqUU9TcUR5cUVrVkk1L29XelFEbTBqaldnY0hrWGptQzRxQjZMUk9YcU9waUYvTkk1VHBISndKWjBqUXFrY3hrcmoyRnNxQnd4VE9zcVp4cUhaZEk0bnAzSVFQSjBqOTZsY2JrRG5HZ2xLRjNiUXVScUZ6aVUwZEs3N29YS3hFcDByckNoZEZrYnBXalpzN1FNYWFLQ0JCaHBvb0I4ZWZ3QkRhWklDaWJtMjVBQUFBQUJKUlU1RXJrSmdnZz09Iiwic2l6ZXMiOiIxODB4MTgwIiwidHlwZSI6ImltYWdlL3BuZyJ9XX0=">
+<title>Peter Digby — This Is Your Life</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700;1,900&display=swap" rel="stylesheet">
+<style>html,body{margin:0;padding:0;background:#0b0809;min-height:100vh}main{max-width:920px;margin:0 auto;padding:10px}</style>
+</head>
+<body>
+<main>
+<div id="tiyl"></div>
+<style>
+#tiyl{max-width:860px;margin:0 auto;font-family:Georgia,'Times New Roman',serif;background:radial-gradient(120% 90% at 50% -10%,#241a1c,transparent 55%),#141011;color:#f4ebd3;border-radius:14px;padding:14px 10px 18px;overflow:hidden}
+#tiyl *{box-sizing:border-box;margin:0;padding:0}
+#tiyl .gold{background:linear-gradient(100deg,#f7e58c,#d4af37 35%,#9c7a22 55%,#e8cd6f 80%);-webkit-background-clip:text;background-clip:text;color:transparent}
+#tiyl .eb{font-size:.62rem;letter-spacing:.34em;text-transform:uppercase;color:#d4af37}
+#tiyl .btn{font-family:inherit;font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;color:#f3dd8f;background:linear-gradient(180deg,rgba(212,175,55,.18),rgba(212,175,55,.05));border:1px solid rgba(212,175,55,.65);border-radius:3px;padding:.8em 1.6em;cursor:pointer}
+#tiyl .cov{display:flex;flex-direction:column;align-items:center;text-align:center;padding:18px 8px 10px}
+#tiyl .host{font-style:italic;font-size:.95rem;line-height:1.65;color:#efe6cd;max-width:34em;margin:10px 0 2px}
+#tiyl .punch{display:block;margin-top:8px;font-style:normal;font-weight:700;font-size:1.2rem}
+#tiyl .bigbook{width:min(330px,84vw);aspect-ratio:10/12.8;margin:22px 0 12px;position:relative;cursor:pointer;border-radius:16px;background:radial-gradient(130% 95% at 28% 10%,rgba(255,190,160,.2),transparent 48%),radial-gradient(120% 120% at 78% 100%,rgba(0,0,0,.5),transparent 55%),linear-gradient(135deg,#8a1c24,#5e1015 48%,#3a070b);box-shadow:0 30px 46px rgba(0,0,0,.6),inset 0 3px 5px rgba(255,255,255,.18),inset 0 -18px 34px rgba(0,0,0,.5),inset 0 0 0 1px rgba(0,0,0,.45);display:flex;align-items:center;justify-content:center;padding:8%}
+#tiyl .bframe{position:absolute;inset:6.5%;border:3px solid rgba(212,175,55,.92);border-radius:6px;box-shadow:inset 0 0 0 1px rgba(0,0,0,.35),0 0 0 1px rgba(0,0,0,.3),inset 0 0 22px rgba(212,175,55,.1);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:10%}
+#tiyl .bframe:before{content:"";position:absolute;inset:7px;border:1px solid rgba(212,175,55,.5);border-radius:3px}
+#tiyl .tstack{font-weight:900;font-size:clamp(2rem,9vw,2.7rem);line-height:1.06;letter-spacing:.1em;text-align:center;text-shadow:0 1px 0 rgba(255,255,255,.2),0 -1px 1px rgba(0,0,0,.65),0 3px 4px rgba(0,0,0,.4)}
+#tiyl .trule{width:56%;height:1px;margin:14px 0 12px;background:linear-gradient(90deg,transparent,#d4af37,transparent)}
+#tiyl .tname{font-weight:700;font-size:.92rem;letter-spacing:.3em;text-transform:uppercase;text-shadow:0 1px 0 rgba(0,0,0,.5)}
+#tiyl .hint{font-size:.8rem;font-style:italic;color:rgba(244,235,211,.55);margin-top:6px}
+#tiyl .bk{position:relative;display:flex;align-items:stretch;perspective:1800px;transform-style:preserve-3d;margin-top:4px}
+#tiyl .pg{position:relative;width:50%;min-height:var(--pgh,0px);padding:22px 18px 34px;color:#2b2216;background:linear-gradient(180deg,#efe4c6,#f4ebd3 10%,#f4ebd3 90%,#e9dcba);box-shadow:inset 0 0 34px rgba(87,60,20,.14)}
+#tiyl .pg.l{border-radius:16px 3px 3px 16px;transform:rotateY(4.5deg);transform-origin:right center;box-shadow:inset 0 0 34px rgba(87,60,20,.14),-3px 3px 0 #e6d8b4,-6px 6px 0 #dccb9f,-9px 10px 14px rgba(0,0,0,.45)}
+#tiyl .pg.r{border-radius:3px 16px 16px 3px;transform:rotateY(-4.5deg);transform-origin:left center;box-shadow:inset 0 0 34px rgba(87,60,20,.14),3px 3px 0 #e6d8b4,6px 6px 0 #dccb9f,9px 10px 14px rgba(0,0,0,.45)}
+#tiyl .pg.l:after,#tiyl .pg.r:after{content:"";position:absolute;top:0;bottom:0;width:34px;pointer-events:none}
+#tiyl .pg.l:after{right:0;background:linear-gradient(270deg,rgba(60,40,10,.28),transparent)}
+#tiyl .pg.r:after{left:0;background:linear-gradient(90deg,rgba(60,40,10,.28),transparent)}
+#tiyl .spn{flex:0 0 20px;align-self:stretch;background:linear-gradient(90deg,rgba(40,20,5,.55),#cab98e 38%,#fdf7e6 50%,#cab98e 62%,rgba(40,20,5,.55));border-radius:2px;box-shadow:0 12px 16px rgba(0,0,0,.5)}
+#tiyl .pg.solo{width:100%;margin:0 auto;max-width:560px}
+#tiyl .pg.solo.sr{border-radius:16px 3px 3px 16px;transform:none}
+#tiyl .pg.solo.sl{border-radius:3px 16px 16px 3px;transform:none}
+#tiyl .pg.solo.sr{box-shadow:inset 0 0 34px rgba(87,60,20,.14),-3px 3px 0 #e6d8b4,-6px 6px 0 #dccb9f,-8px 9px 12px rgba(0,0,0,.45),14px 0 0 -6px #cab98e,20px 0 0 -8px #4a2e10}
+#tiyl .pg.solo.sl{box-shadow:inset 0 0 34px rgba(87,60,20,.14),3px 3px 0 #e6d8b4,6px 6px 0 #dccb9f,8px 9px 12px rgba(0,0,0,.45),-14px 0 0 -6px #cab98e,-20px 0 0 -8px #4a2e10}
+#tiyl .pgn{font-size:.6rem;letter-spacing:.2em;color:#57492f;text-align:center;margin-top:14px;text-transform:uppercase}
+#tiyl .fin{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;min-height:220px;color:#8f6f1d;font-style:italic}
+#tiyl .fin b{font-size:1.6rem;font-weight:400}
+#tiyl .rom{font-weight:900;font-size:2rem;color:transparent;-webkit-text-stroke:1.2px rgba(139,106,32,.75)}
+#tiyl .era{margin:2px 0 8px;font-size:.6rem;letter-spacing:.28em;text-transform:uppercase;color:#8f6f1d}
+#tiyl h3.ct{font-weight:900;font-size:1.3rem;line-height:1.15;color:#3a2d17;margin-bottom:4px}
+#tiyl .dk{font-style:italic;font-size:.9rem;color:#57492f;margin-bottom:10px;line-height:1.5;border-bottom:1px solid rgba(143,111,29,.5);padding-bottom:8px}
+#tiyl .bd p{font-size:.94rem;line-height:1.68;margin-bottom:.85em}
+#tiyl .sm{font-size:.72rem;color:#8f6f1d;font-style:italic}
+#tiyl .pq{margin:.8em 0;padding:.75em .9em;border-left:3px solid #d4af37;background:rgba(212,175,55,.09);font-style:italic;font-size:.93rem;line-height:1.55;color:#4a3a1d}
+#tiyl .pq span{display:block;margin-top:.5em;font-style:normal;font-size:.64rem;letter-spacing:.1em;text-transform:uppercase;color:#8f6f1d}
+#tiyl figure{margin:4px 0 12px;background:#fbf6e8;border:1px solid #d9c99f;padding:7px;box-shadow:0 8px 16px rgba(60,40,10,.2)}
+#tiyl .pw{position:relative;aspect-ratio:4/3;background:#242019;overflow:hidden}
+#tiyl .pw img{width:100%;height:100%;object-fit:cover;display:block}
+#tiyl figcaption{margin-top:6px;font-size:.72rem;font-style:italic;color:#57492f;text-align:center;line-height:1.4}
+#tiyl .cred{display:block;font-size:.58rem;font-style:normal;opacity:.75;margin-top:2px}
+#tiyl .plate{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;text-align:center;padding:14px;background:radial-gradient(120% 100% at 30% 15%,rgba(255,190,160,.14),transparent 45%),linear-gradient(135deg,#7d181f,#3d080c);color:#f3dd8f}
+#tiyl .plate:before{content:"";position:absolute;inset:8px;border:1px solid rgba(212,175,55,.55)}
+#tiyl .p1{font-size:.54rem;letter-spacing:.32em}
+#tiyl .p2{font-weight:700;font-size:.88rem;letter-spacing:.1em;text-transform:uppercase;line-height:1.4}
+#tiyl .p3{font-size:.72rem;font-style:italic;color:rgba(244,235,211,.8);max-width:28ch;line-height:1.45}
+#tiyl .chips{display:flex;flex-wrap:wrap;gap:5px;margin-top:10px}
+#tiyl .chip{font-size:.54rem;letter-spacing:.12em;text-transform:uppercase;color:#6d541a;border:1px solid rgba(143,111,29,.5);padding:.4em .7em;background:rgba(212,175,55,.08)}
+#tiyl .gst{background:repeating-linear-gradient(90deg,#56121a 0 22px,#430b12 22px 44px);border:1px solid rgba(212,175,55,.55);border-radius:4px;padding:20px 14px;text-align:center;margin:4px 0;box-shadow:inset 0 0 26px rgba(0,0,0,.5);min-height:calc(var(--pgh,420px) - 100px);display:flex;flex-direction:column;justify-content:center}
+#tiyl .mono{width:58px;height:58px;margin:8px auto 10px;border-radius:50%;border:1.5px solid rgba(212,175,55,.75);display:flex;align-items:center;justify-content:center;font-weight:900;font-size:1.1rem;background:radial-gradient(120% 120% at 32% 25%,#7d181f,#2c0507)}
+#tiyl .gn{font-weight:900;font-size:1.2rem;letter-spacing:.05em;text-transform:uppercase}
+#tiyl .gr{font-style:italic;color:rgba(244,235,211,.85);margin:3px 0 12px;font-size:.82rem}
+#tiyl .gq{font-style:italic;font-size:.92rem;line-height:1.66;color:#f6efdc}
+#tiyl .gtag{display:inline-block;margin-top:14px;font-size:.56rem;letter-spacing:.14em;text-transform:uppercase;color:rgba(243,221,143,.8);border:1px dashed rgba(212,175,55,.5);padding:.5em .8em;line-height:1.5}
+#tiyl .ggr{display:block;margin-top:8px;font-size:.68rem;font-style:italic;color:rgba(244,235,211,.62);line-height:1.5}
+#tiyl .hear{margin-top:12px;font-size:.62rem}
+#tiyl .hearbox{margin-top:10px}
+#tiyl .hearbox iframe{width:100%;aspect-ratio:16/9;border:0;border-radius:4px;box-shadow:0 8px 18px rgba(0,0,0,.35)}
+#tiyl .hearsrc{display:block;margin-top:6px;font-size:.58rem;font-style:italic;color:#8f6f1d;line-height:1.5}
+#tiyl .gst .hearsrc{color:rgba(244,235,211,.6)}
+#tiyl .cer{text-align:center}
+#tiyl .scr{font-family:'Snell Roundhand','Apple Chancery','Brush Script MT',cursive;font-size:1.6rem;color:#7a5c15;margin-bottom:6px}
+#tiyl .cer h3{font-weight:900;letter-spacing:.08em;text-transform:uppercase;font-size:1.05rem;color:#3a2d17;margin:8px 0}
+#tiyl .lede{font-size:.9rem;line-height:1.7;font-style:italic;color:#57492f;margin-bottom:8px;text-align:left}
+#tiyl .lede b{color:#6d541a;font-style:normal}
+#tiyl .stats{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin:12px 0}
+#tiyl .st{min-width:78px}
+#tiyl .st b{display:block;font-weight:900;font-size:1.1rem;color:#7a5c15}
+#tiyl .st i{font-style:normal;font-size:.5rem;letter-spacing:.14em;text-transform:uppercase;color:#57492f}
+#tiyl .creds{margin-top:10px;font-size:.66rem;line-height:1.55;color:#57492f;border-top:1px solid rgba(143,111,29,.4);padding-top:8px;text-align:left}
+#tiyl .nav{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:14px}
+#tiyl .nb{flex:0 0 auto;width:52px;height:44px;font-size:1.2rem;color:#f3dd8f;background:linear-gradient(180deg,rgba(212,175,55,.18),rgba(212,175,55,.04));border:1px solid rgba(212,175,55,.6);border-radius:6px;cursor:pointer}
+#tiyl .nb:disabled{opacity:.22}
+#tiyl .nlab{flex:1;text-align:center;font-size:.58rem;letter-spacing:.16em;text-transform:uppercase;color:rgba(244,235,211,.75);line-height:1.6}
+@media (max-width:719px){#tiyl .bk{display:block;perspective:none}#tiyl .spn{display:none}}
+#tiyl{position:relative}
+#tiyl .ct,#tiyl .tstack,#tiyl .tname,#tiyl .gn,#tiyl h3,#tiyl .punch{font-family:'Playfair Display',Georgia,'Times New Roman',serif}
+#tiyl .tstack{letter-spacing:.07em}
+#tiyl .tname{letter-spacing:.26em}
+#tiyl .flay{position:absolute;z-index:9;pointer-events:none;perspective:1600px}
+#tiyl .fcov,#tiyl .leaf{position:absolute}
+#tiyl .leaf{transform-style:preserve-3d;transition:transform .55s cubic-bezier(.45,.06,.35,1);will-change:transform}
+#tiyl .ffc{overflow:hidden;backface-visibility:hidden;-webkit-backface-visibility:hidden;background:linear-gradient(180deg,#efe4c6,#f4ebd3 10%,#f4ebd3 90%,#e9dcba);color:#2b2216;padding:22px 18px 34px;border-radius:4px;box-shadow:inset 0 0 34px rgba(87,60,20,.14),0 6px 16px rgba(0,0,0,.25)}
+#tiyl .leaf .ffc{position:absolute;inset:0}
+#tiyl .leaf .ffb{transform:rotateY(180deg)}
+#tiyl .leaf.go{transform:rotateY(-178deg)}
+#tiyl .leaf.gob{transform:rotateY(178deg)}
+#tiyl .bopen{animation:covop .7s cubic-bezier(.55,.06,.45,.95) forwards;transform-origin:left center}
+@keyframes covop{70%{opacity:1}to{transform:perspective(1400px) rotateY(-102deg);opacity:.12}}
+#tiyl .bclose{animation:covcl .45s ease-out;transform-origin:left center}
+@keyframes covcl{from{transform:perspective(1400px) rotateY(-96deg)}}
+#tiyl .fain{animation:bkfade .5s ease both}
+@keyframes bkfade{from{opacity:0}}
+@media (prefers-reduced-motion:reduce){#tiyl .leaf{transition:none}#tiyl .bopen,#tiyl .bclose,#tiyl .fain{animation:none}}
+</style>
+<script>
+(function(){
+var R=document.getElementById('tiyl');
+function CM(f){return "https://commons.wikimedia.org/wiki/Special:FilePath/"+encodeURIComponent(f)+"?width=900";}
+var CR="Photo: Wikimedia Commons contributors (CC licence)";
+var IMS={
+wil:[CM("Williams FW07.jpg"),CM("Alan Jones - Williams FW07 at Rascasse during practice for the 1979 Monaco GP (49984746103).jpg")],
+sch:[CM("Martin Schanche Ford Escort XR3 T16 4x4 001.jpg"),CM("Martin Schanche Ford Escort XR3 T16 4x4 1980's.jpg")],
+onx:[CM("Onyx-Monteverdi ORE1B-1.jpg")],
+ind:[CM("Dallara DW12 (Charlie Kimball) 2017 Indianapolis 500.jpg"),CM("9 Scott Dixon 2018 Kohler Grand Prix (cropped).jpg")],
+lmh:[CM("Porsche 963 LMDh.jpg"),CM("Porsche 963.jpg")],
+brd:[CM("BRDC Clubhouse at Silverstone (44866803032).jpg"),CM("BRDC Crest at Silverstone (44866803612).jpg")]};
+function clipFor(p){
+if(p&&p.ti==='One Hundred Gearboxes for America')return{id:'uaiFYu0RFrI',lb:'“Professor B” explains the Xtrac IndyCar gearbox — how Peter’s company conquered Indianapolis',s:'Source: NTT INDYCAR SERIES — official YouTube (embed only)'};
+if(p&&p.ti==='Mr Motorsport Valley')return{id:'h-ZePCE87tI',lb:'Xtrac at the Professional Motorsport World Expo — the company Peter built, mid-stride in 2013',s:'Source: Professional MotorSport World Expo — official YouTube (embed only)'};
+return null;}
+var P=[
+{t:'pro'},
+{t:'c',r:'I',e:'The Beginning',ti:'The Apprentice',dk:'Before the fast cars, the slow and patient learning of a trade.',pl:['WHERE IT ALL BEGAN','Toolbox First','Every gear he ever turned began with an apprenticeship.'],ch:['British Airways','Learning a trade'],b:["Long before the champagne and the chequered flags, there was a boy with a toolbox. You left school not for a lecture theatre but for an apprenticeship with British Airways — real metal, real machines, and the unforgiving standards of aviation engineering, where a job is either done properly or done again.","It marked you for life. Decades later, when you had a factory full of the world's most exotic machinery, the thing you protected most fiercely was the apprentice's bench you started from. But first, a young man with hands-on training and a head for organisation was about to be noticed by a man called Frank."]},
+{t:'c',r:'II',e:'1979 – 1985',ti:'Grand Prix University',dk:'Twenty-one years old, and straight into the deep end at Williams.',im:{k:'wil',ps:'center 40%',cap:'A Williams FW07 — the car of Williams\' first golden era, the very years Peter served and rose to production manager.'},pl:['DIDCOT · 1979','The Williams Years','Six years inside the making of a championship team.'],ch:['Williams Racing','Production Manager','Masters degree'],b:["In 1979 you joined Williams — twenty-one years old, arriving just as the little team was becoming a great one. That summer, Clay Regazzoni gave Williams its first grand prix victory, at Silverstone of all places. Remember that circuit, Peter. It will come back for you.","You stayed six years and rose to production manager, adding a Masters degree along the way, while around you Alan Jones and Keke Rosberg took world championships and Williams grew into a superpower. You learned how a racing organisation really works: not by magic, but by parts delivered on time, made right, by people who care.","University of life? No — grand prix university. And you graduated with honours."]},
+{t:'c',r:'III',e:'1985 – 1986',ti:'The Call from a Friend',dk:'A glamorous dead end — and the phone call that changed everything.',pl:['1986','Two Roads','The safe road led back to F1. The other led to four people in a shed.'],ch:['Haas Lola','Ross Brawn','Adrian Newey','Mike Endean'],b:["From Williams you took a step up in title at the ambitious Anglo-American Haas Lola team — assistant managing director, sharing a building with two young engineers the world would later know rather well: Ross Brawn and Adrian Newey. The team was brilliant, expensive, and brief.","And then came the call. Your friend Mike Endean — an ex-Hewland gear man with a wild-eyed little company named Xtrac — wanted a businessman he could trust. In 1986 he persuaded you to leave the grand prix paddock for a four-person enterprise in Berkshire. Some said it was a step down. It turned out to be the step of your life."]},
+{t:'g',ini:'ME',n:'Mike Endean',ro:'Founder of Xtrac — the man who talked you into it',q:"I could design a gearbox to beat anybody, but Peter could build a company around it — that was the difference. In 1986 I asked my friend to come and mind the shop for a bit. He minded it for the best part of forty years, and he never once let it become ordinary.",gr:"Real: Endean, an ex-Hewland engineer, founded Xtrac in 1984, persuaded Digby to join in 1986, retired at the 1997 management buyout, and was guest of honour at Xtrac's 40th anniversary in 2024. The quote itself is imagined."},
+{t:'c',r:'IV',e:'1984 – 1988',ti:'A Gearbox Named X',dk:'A Norwegian\'s mad idea, an engineer\'s madder answer — and your new job.',im:{k:'sch',ps:'center',cap:'Martin Schanche\'s four-wheel-drive Ford Escort — the fire-breathing rallycross machine that carried the Xtrac name into battle in the 1980s.'},pl:['FOUNDED 15 JUNE 1984','Xtrac','Born from a 560bhp Escort that gripped where others spun.'],ch:['Martin Schanche','560bhp Escort','1984 ERC champion','Group A rallying'],b:["Here is the legend you inherited. Rallycross warrior Martin Schanche dreamed up a variable four-wheel-drive system and paid to have it built; Mike Endean and Chris Goddard made it real in 1983. Bolted into Schanche's 560-horsepower Ford Escort, the 'Xtrac' system won the 1984 European Rallycross Championship — and on 15 June 1984, the company taking its name was born.",{q:"The journey began with Mike Endean, who developed the G4 gearbox for rallycross star Martin Schanche's Ford Escort. The G4's success in European Rallycross during the 1980s laid the foundation for Xtrac's ethos of exceptional products and great customer service.",c:"Peter Digby — Xtrac's 40th anniversary, 2024"},"You arrived in 1986 as managing director of what was still a handful of people, moving from Wokingham into a 20,000 sq ft factory at Finchampstead, and steered Xtrac into gearboxes for the new Group A rally era — work that soon drew Mazda, Mitsubishi, Opel and Toyota to a Berkshire door."]},
+{t:'g',ini:'MS',n:'Martin Schanche',ro:'Rallycross world-beater — Xtrac customer number one',q:"I wanted four driven wheels when everybody told me it was impossible, so I paid for it myself! Mike built my crazy dream, and then this Englishman turned my crazy dream into an empire. Not bad for a gearbox with my tyre smoke on it.",gr:"Real: Schanche conceived and financed the first Xtrac 4WD system (1983) and won the 1984 European Rallycross Championship in the Xtrac-equipped Escort. The quote is imagined."},
+{t:'c',r:'V',e:'1989 – 1992',ti:'Onyx, McLaren and the Grid',dk:'Formula 1 comes knocking — and a Queen\'s Award follows.',im:{k:'onx',ps:'center',cap:'An Onyx-Monteverdi ORE-1B — evolution of the Onyx that first took Xtrac into Formula 1 in 1989.'},pl:['1989','Into Formula 1','From one brave customer to most of the grid.'],ch:['Onyx F1 1989','McLaren','Queen\'s Award 1992'],b:["In 1989 the little team from Thatcham-to-be went to the very top: Onyx Grand Prix contracted Xtrac to develop a transverse Formula 1 gearbox. McLaren followed. Within a few years your components were inside cars from Benetton, Jordan, Tyrrell, Williams, McLaren, Minardi and BAR — and Xtrac gear internals have never really left the F1 grid since.","The world noticed. In 1992 — the company not yet eight years old — Xtrac received the Queen's Award for its export achievement. A royal stamp on a rallycross dream, and the first of two visits from the Palace's engravers."]},
+{t:'c',r:'VI',e:'1997',ti:'Buying the Keys',dk:'The founder retires — and you hand the company to everyone in it.',pl:['1997','The Buyout','Not just a management buyout. An everyone buyout.'],ch:['MBO 1997','Employee Benefit Trust','HSBC Private Equity'],b:["When Mike Endean decided to retire in 1997, you led the management buyout — but you did it your way. Every single employee was included: roughly 49 per cent of the company in staff hands, the rest with you and the senior team, with an Employee Benefit Trust to hold it together. You have called it your single greatest accomplishment — ahead of every trophy.",{q:"When you grow a company you start small. We then went from four to 70 people, and when you reach 100 people you start to think…",c:"Peter Digby on growing pains — Real Business, 2014"},"Growth needed capital, so HSBC Private Equity took a stake to fund the machinery — a partnership that ran until 2013 — while you wrote the culture down in a little values handbook every new starter received.",{q:"To be honest half of it could have been written by my mother as it is all about being polite.",c:"Peter Digby on the 'Xtrac DNA' handbook — Real Business, 2014"}]},
+{t:'c',r:'VII',e:'1999 – 2003',ti:'One Hundred Gearboxes for America',dk:'The deal that built a factory — and conquered the Brickyard.',im:{k:'ind',ps:'center 35%',cap:'An IndyCar Dallara at speed — since 1999, every car in the series has raced on an Xtrac gearbox.'},pl:['INDIANAPOLIS','Spec Supplier','Every car. Every lap. Every Indy 500.'],ch:['IndyCar sole supply 1999','100 gearboxes','Thatcham 2000','Indianapolis 2003'],b:["In 1999 you signed the deal that changed everything: Xtrac became the single gearbox supplier to IndyCar — and had to build one hundred gearboxes, fast. The order was so big it demanded a new home: in 2000 you opened the purpose-built 88,000 sq ft factory at Thatcham that became motorsport's most famous transmission works.",{q:"In the US we supply all of the Indy 500 cars, the biggest motor race in the world.",c:"Peter Digby — Real Business, 2014"},"In 2003 you planted the flag in America itself with Xtrac's first US operation in Indianapolis — Mooresville, North Carolina would follow — and the spec-supply model you pioneered became the template for modern motorsport."]},
+{t:'c',r:'VIII',e:'1993 – 2011',ti:'Everything, Everywhere',dk:'Le Mans at dawn, rally stages at midnight, and a six-month miracle.',pl:['THE EVERYWHERE YEARS','Le Mans · Rally · BTCC','If it raced, it probably shifted through Thatcham steel.'],ch:['Sequential rally boxes','BTCC','Le Mans','1044 F1 gearbox 2010'],b:["Through the 1990s and 2000s the Xtrac name spread to every corner of the sport. You introduced sequential gearboxes to rallying and supplied the World Rally Championship's finest; the British Touring Car Championship ran on your transmissions; and at the 24 Hours of Le Mans your gearboxes hauled through the night in dozens of cars at a time.",{q:"We now supply the vast majority of Le Mans cars — we'll have 30-40 out of the 56 cars on the grid this year.",c:"Peter Digby — Real Business, 2014"},"When three brand-new F1 teams needed a complete gearbox for 2010, Xtrac designed and developed the 1044 in just six months for Lotus, Virgin and HRT. And the road called too: prototype transmissions for Tesla in 2006, the Rolls-Royce 102EX electric experiment in 2011, and the Pagani Huayra's gearbox — Thatcham engineering hiding under hypercar skin."]},
+{t:'c',r:'IX',e:'2003 – 2014',ti:'Mr Motorsport Valley',dk:'Five years chairing the MIA — and a trophy cabinet of your own.',pl:['THE INDUSTRY MAN','Flying the Flag','Britain\'s motorsport industry needed a salesman-in-chief. It got you.'],ch:['MIA Chairman 2003–08','IoD Director of the Year 2014','Top Gear at Xtrac','Duke of Kent visit'],b:["You never just ran your own company — you championed everyone's. For more than thirty years you served the Motorsport Industry Association, chairing it from 2003 to 2008, leading trade missions and telling the world what 'Motorsport Valley' could do.",{q:"His well-informed knowledge, huge experience and determination to bring success to Xtrac never wavered. So many, working in motorsport today, have benefited from his advice, occasional criticism, and support!",c:"Chris Aylett, MIA Chief Executive — June 2025"},"By 2014 the honours were stacking up: the Institute of Directors named you Global Director of the Year and overall UK Director of the Year, and the CBI-backed Growing Business Awards crowned you Entrepreneur of the Year. Top Gear came to film at your factory, the Duke of Kent came to visit, and Downing Street asked you in to talk employee ownership. Not bad for the quiet one in the corner of the paddock."]},
+{t:'g',ini:'CA',n:'Chris Aylett',ro:'Chief Executive of the MIA — your partner in flying the flag',q:"Wherever in the world I opened a trade-mission door, Peter was already through it with an order book and a queue of customers. He gave this industry his time when he had none to spare — and the occasional telling-off when we needed it. Every British motorsport exporter owes him a pint.",gr:"Real: Digby chaired the MIA 2003–2008, supported its trade missions for over 30 years, and received its 2025 Outstanding Contribution Award, presented alongside Aylett's documented praise. The quote is imagined."},
+{t:'c',r:'X',e:'2015 – 2022',ti:'Built to Outlast',dk:'A Prime Minister cuts the ribbon; a new generation takes the wheel.',pl:['SUCCESSION','Handing Over the Gears','The measure of a builder is what stands when he steps back.'],ch:['Adrian Moore MD 2015','Inflexion 2017','Theresa May 2018','Xtrac Academy 2022','3× Princess Royal Training Award'],b:["You planned your own succession like one of your gearboxes — years in advance, nothing left to chance. In 2015 Adrian Moore was appointed managing director while you kept watch over F1, IndyCar and the key customers; in 2017 Inflexion Private Equity backed a buyout that kept the employee trust at the heart of the company; in 2018 you became President as Joe Greenwell CBE, and later Andy Caffyn, took the chair. That November, Prime Minister Theresa May opened the newest factory extension.","And then there is the legacy you rank above them all: the apprentices. A scheme running for more than thirty years; a purpose-built Xtrac Academy opened in March 2022; a visit from HRH The Princess Royal that summer; and Princess Royal Training Awards in 2018, 2021 and 2024 — the only company in the automotive and motorsport industry to win it three times.","When Xtrac took its second Queen's Award in 2020 — for Innovation, for the electric-vehicle ILEV gearbox range — apprentice fingerprints were all over the design. More than fifty of today's staff came through the Academy. That, Peter, is a gearbox that will never wear out."]},
+{t:'g',ini:'AM',n:'Adrian Moore',ro:'Your successor — Managing Director from 2015, now Chief Executive',q:"The hardest job in motorsport isn't designing a seamless-shift gearbox — it's taking over from Peter Digby. He handed me a world-beating company, a culture his mother would approve of, and one instruction: look after the people and the customers, in that order. We've tried to be worthy of it every day since.",gr:"Real: Moore was appointed MD in 2015 in a long-planned succession, became CEO, and led Xtrac through its 40th anniversary in 2024. The quote is imagined."},
+{t:'c',r:'XI',e:'2020 – 2025',ti:'The Spec Era',dk:'NASCAR, Le Mans, IndyCar, BTCC — one supplier to rule them all.',im:{k:'lmh',ps:'center',cap:'A Porsche 963 LMDh — every LMDh prototype of the modern endurance era races on an Xtrac gearbox.'},pl:['THE WORLD RUNS ON XTRAC','90% of Le Mans','From a shed in Wokingham to nearly every grid on earth.'],ch:['NASCAR Next Gen 2022','LMDh supplier','eWRX','40 years · 2024'],b:["The company you built became the sport's quiet constant. Sole gearbox and driveline supplier for NASCAR's Next Gen Cup car from 2022; transmission partner for the LMDh hybrid endurance era alongside Bosch and Williams Advanced Engineering; exclusive supplier to IndyCar, the NASCAR Cup Series, the BTCC and the electric eWRX. At the 2025 Le Mans 24 Hours, 90 per cent of the grid raced on Xtrac.","On 28 June 2024, Xtrac's people gathered near Thatcham to celebrate forty years — a quarter of a million precision parts now leaving the factory every year — with Mike Endean as guest of honour and you, the President, telling the story of a Norwegian, an Escort and a gearbox called G4. Soon afterwards, with the handover complete, the MIA would introduce you simply as 'former President of Xtrac'. Nearly four decades after a friend's phone call, you had finally given the company back."]},
+{t:'c',r:'XII',e:'2021 – 2034',ti:'Silverstone Calling',dk:'The circuit where your Williams story began is now in your care.',im:{k:'brd',ps:'center 60%',cap:'The BRDC Clubhouse at Silverstone — home of the club Peter has chaired since 2022.'},pl:['THE BRITISH RACING DRIVERS\' CLUB','Chairman','Guardian of the home of British motor racing.'],ch:['BRDC Chairman 2022','Silverstone Circuits','British GP secured to 2034','MIA Award 2025'],b:["Remember Silverstone, 1979 — Williams' first win, your first season? Forty-three years later, on 22 September 2022, the British Racing Drivers' Club elected you its Chairman, and with it chairman of Silverstone Circuits — having already served on the board and as deputy chairman. The home of British motor racing was now, quite literally, your business.","You led the team that negotiated a new ten-year agreement with Formula One Management, securing the British Grand Prix at Silverstone until at least 2034 — a deal worth more to British motorsport than any gearbox. And in June 2025 came that night at the House of Lords: the MIA Award for Outstanding Contribution to the Motorsport Industry, your name alongside Stewart, Brawn, Newey, Brundle and Wolff.",{q:"Being recognised in the industry that I love, and have worked in now for over 45 years, is just a great honour.",c:"Peter Digby — MIA Summer Reception, House of Lords, June 2025"}]},
+{t:'g',ini:'DW',n:'Derek Warwick',ro:'Formula 1 driver · Past President of the BRDC',q:"I've raced for team bosses of every kind, and I'll tell you what marks Peter out — he treats a marshal, an apprentice and a world champion exactly the same. Silverstone has had plenty of caretakers; in Peter it has a proper custodian. He negotiated that Grand Prix deal the way he ran Xtrac: quietly, thoroughly, and to win.",gr:"Real: Warwick served as BRDC President (2011–2017) of the club Digby has chaired since 2022; the 2034 British GP deal under Digby's chairmanship is documented. The quote is imagined."},
+{t:'c',r:'XIII',e:'2026',ti:'The Man Himself',dk:'Take away the trophies, and what\'s left is the best bit.',pl:['AT HOME','Peter','The quiet man the whole paddock calls a friend.'],ch:['Ozzy','Charlie','Lucas'],b:["Strip away the awards and the org charts, and here is what those closest to you want the world to know. A man who walks in with Ozzy the dog at his heel and not a single airline apprentice's habit lost — everything checked twice, everyone greeted properly. A father of three: a daughter and two sons, Charlie and Lucas, who have shared you with a sport that never once had a quiet season.","From those closest to you comes the same verdict the industry reached long ago: the values handbook wasn't corporate varnish — it was just you, written down. Politeness. Patience. Doing the job right.",{q:"It then comes down to letting people get on with their job as they are far better at doing it than I am.",c:"Peter Digby — Real Business, 2014"},"They are not, Peter. Nobody was better at yours."]},
+{t:'end'},
+{t:'made'}
+];
+var idx=0,opened=false,everOpened=false,timer=null,keysOn=false,anim=false;
+var mq=window.matchMedia('(min-width:720px)');
+var rm=window.matchMedia('(prefers-reduced-motion: reduce)');
+function pqh(o){return "<blockquote class=pq>"+o.q+"<span>"+o.c+"</span></blockquote>";}
+function plateH(pl){return "<div class=plate><div class=p1>"+pl[0]+"</div><div class=p2>"+pl[1]+"</div><div class=p3>"+pl[2]+"</div></div>";}
+function hearH(cl){
+if(cl.lk)return "<a class='btn hear' style='display:inline-block;text-decoration:none' href='https://www.youtube.com/watch?v="+cl.id+"' target='_blank' rel='noopener'>▶ Hear it on YouTube</a><span class=hearsrc>"+cl.lb+" — "+cl.s+"</span>";
+return "<button class='btn hear' data-yt='"+cl.id+"'>▶ Hear it for real</button><div class=hearbox></div><span class=hearsrc>"+cl.lb+" — "+cl.s+"</span>";}
+function covH(){return "<div class=cov><span class=eb>A private tribute · in the classic style</span><p class=host>Tonight — from an airline apprentice's toolbox to the pit lanes of Monaco, Indianapolis and Le Mans, we surprise the quiet Berkshire gearbox man who put the whole of motorsport into gear.<span class='punch gold'>Peter Digby — this is your life!</span></p><div class=bigbook id=tybook role=button aria-label='Open the book'><div class=bframe><div class='tstack gold'>THIS<br>IS<br>YOUR<br>LIFE</div><div class=trule></div><div class='tname gold'>Peter Digby</div></div></div><button class=btn id=tyopen>Open the Book</button><div class=hint>It opens itself in a moment — or tap the book. Surprise guests await inside.</div></div>";}
+function entryH(p,i){
+var cl=clipFor(p);
+if(!p)return "<div class=fin><b>❦</b><span>fin</span></div>";
+if(p.t==='pro')return "<div class='stage cer'><div class=scr>Tonight…</div><p class=lede>You thought it was just another industry reception. Westminster, warm wine, familiar faces from forty-odd years of paddocks and factory floors. Then the room turned towards you, and the name they read out was yours — the award for <b>Outstanding Contribution to the Motorsport Industry</b>, the one they'd given to Jackie Stewart, Ross Brawn, Adrian Newey, Toto Wolff. 'A total surprise,' you called it. Peter — we have another one for you.</p><h3>Peter Digby — This Is Your Life!</h3><p class=lede>Because tonight we've opened the red book. The apprentice who joined a grand prix team at twenty-one. The friend who answered a phone call and built the world's greatest racing transmission company. The champion of apprentices, the keeper of Silverstone. Tonight's guests: the founder who talked you into it, a Norwegian with 560 horsepower, the industry's chief flag-flyer, the man you trusted with the keys — and a President of the club you now chair.</p><div class=pgn>· Page "+(i+1)+" of "+P.length+" ·</div></div>";
+if(p.t==='g')return "<div class=gst><div class=eb>A voice you may recognise…</div><div class='mono gold'>"+p.ini+"</div><div class='gn gold'>"+p.n+"</div><div class=gr>"+p.ro+"</div><p class=gq>“"+p.q+"”</p><span class=gtag>In the spirit of the show — an imagined tribute</span><span class=ggr>"+p.gr+"</span>"+(cl?hearH(cl):"")+"</div><div class=pgn>· Page "+(i+1)+" of "+P.length+" ·</div>";
+if(p.t==='end')return "<div class='stage cer'><div class=scr>And so, Peter…</div><p class=lede>The apprentice who learned that a job is done properly or done again. The twenty-one-year-old who joined Williams as it rose. The friend who said yes to four people and a wild idea. The managing director who took a rallycross gearbox to Formula 1, to Indianapolis, to Le Mans, to every grid that matters. The boss who gave his company to its people, and his craft to its apprentices. <b>The industry's champion, and Silverstone's keeper.</b></p><div class=stats><div class=st><b>39</b><i>Years at Xtrac</i></div><div class=st><b>2</b><i>Queen's Awards</i></div><div class=st><b>3</b><i>Princess Royal Awards</i></div><div class=st><b>100</b><i>Gearboxes · IndyCar '99</i></div><div class=st><b>90%</b><i>Of Le Mans 2025</i></div><div class=st><b>2034</b><i>British GP secured</i></div></div><h3>Peter Digby… this <em>is</em> your life.</h3><p class=lede>Goodnight, Peter — and on behalf of everyone who ever won on your gearboxes: thank you. Give Ozzy a pat from all of us.</p><button class=btn id=tyre>⟲ Read it again</button><div class=creds><b>Sources & verification.</b> Facts verified across two or more independent sources: Xtrac Ltd official news (40th anniversary 2024, board changes, Queen's Award and Academy announcements), the Motorsport Industry Association and The Manufacturer (2025 MIA Outstanding Contribution Award, incl. the Digby and Aylett quotes), Real Business (2014 interview, incl. quotes), Wikipedia (Xtrac Limited; BRDC) as a starting point, RallycrossWorld, Inflexion Private Equity, Princess Royal Training Awards, Newbury Today, Business & Innovation Magazine, Newbury College, The Business Magazine and BerkshireLive. Research corrections applied: Peter joined Xtrac in 1986; he served as BRDC board director and deputy chairman before his 2022 election as Chairman. Family details are from those closest to him. Guest tributes are imagined in the spirit of the show, grounded in the documented facts stated beneath each. <b>Media:</b> images are Wikimedia Commons era illustrations (CC licences; archive plates stand in if one fails) — no photograph claims to show Peter himself; the two players embed official YouTube channels only — nothing is re-hosted. A private homage — not affiliated with Peter Digby, Xtrac, the BRDC, or the producers of <em>This Is Your Life</em>.</div><div class=pgn>· Page "+(i+1)+" of "+P.length+" ·</div></div>";
+if(p.t==='made')return "<div style='display:flex;flex-direction:column;justify-content:center;min-height:calc(var(--pgh,500px) - 60px)'><div style='margin:0 auto;max-width:36em;text-align:left;border:1px solid rgba(143,111,29,.55);background:rgba(212,175,55,.08);padding:.95em 1.1em'><div style='font-size:.6rem;letter-spacing:.22em;text-transform:uppercase;color:#8f6f1d;margin-bottom:.5em'>How this book was made</div><p style='font-style:italic;font-size:.9rem;line-height:1.7;color:#57492f;margin:0 0 .65em'>This book was built in real time, remotely, in the time it took to drink two glasses of water and have a fascinating chat. A single phone, working a laptop somewhere else, bringing you a fun snapshot of agent deployment — researching, curating and building something all on its own…</p><p style='font-style:normal;font-weight:700;font-size:.92rem;line-height:1.6;color:#6d541a;margin:0 0 .65em'>If we can build this with nothing more than a phone and a 60-second prompt while waiting in reception, imagine what we could do with a month and a laptop!</p><div style='font-size:.74rem;letter-spacing:.05em;color:#6d541a;line-height:1.7'><b>Shaynee Taylor</b> · The Intelligence Arc<span style='font-size:.62em;vertical-align:super'>®</span> · <a href='tel:+447785614614' style='color:#6d541a'>07785 614614</a> · <a href='mailto:shaynee.taylor@theintelligencearc.com' style='color:#6d541a'>shaynee.taylor@theintelligencearc.com</a></div><div id=qrslot style='margin-top:.8em;text-align:center'><svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 41 41' width='120' height='120' role='img' aria-label='QR code linking to this site' shape-rendering='crispEdges'><path fill='#3a2d17' d='M4 4h7v1h-7zM12 4h1v1h-1zM15 4h2v1h-2zM18 4h1v1h-1zM21 4h2v1h-2zM24 4h3v1h-3zM30 4h7v1h-7zM4 5h1v1h-1zM10 5h1v1h-1zM14 5h1v1h-1zM17 5h2v1h-2zM21 5h1v1h-1zM26 5h1v1h-1zM30 5h1v1h-1zM36 5h1v1h-1zM4 6h1v1h-1zM6 6h3v1h-3zM10 6h1v1h-1zM12 6h1v1h-1zM14 6h3v1h-3zM18 6h1v1h-1zM21 6h2v1h-2zM24 6h3v1h-3zM30 6h1v1h-1zM32 6h3v1h-3zM36 6h1v1h-1zM4 7h1v1h-1zM6 7h3v1h-3zM10 7h1v1h-1zM13 7h2v1h-2zM16 7h1v1h-1zM18 7h5v1h-5zM24 7h5v1h-5zM30 7h1v1h-1zM32 7h3v1h-3zM36 7h1v1h-1zM4 8h1v1h-1zM6 8h3v1h-3zM10 8h1v1h-1zM14 8h1v1h-1zM18 8h3v1h-3zM22 8h1v1h-1zM24 8h3v1h-3zM30 8h1v1h-1zM32 8h3v1h-3zM36 8h1v1h-1zM4 9h1v1h-1zM10 9h1v1h-1zM12 9h1v1h-1zM16 9h1v1h-1zM20 9h3v1h-3zM24 9h1v1h-1zM26 9h1v1h-1zM28 9h1v1h-1zM30 9h1v1h-1zM36 9h1v1h-1zM4 10h7v1h-7zM12 10h1v1h-1zM14 10h1v1h-1zM16 10h1v1h-1zM18 10h1v1h-1zM20 10h1v1h-1zM22 10h1v1h-1zM24 10h1v1h-1zM26 10h1v1h-1zM28 10h1v1h-1zM30 10h7v1h-7zM13 11h1v1h-1zM16 11h1v1h-1zM18 11h1v1h-1zM24 11h1v1h-1zM26 11h1v1h-1zM28 11h1v1h-1zM4 12h1v1h-1zM6 12h1v1h-1zM10 12h2v1h-2zM13 12h1v1h-1zM19 12h2v1h-2zM23 12h1v1h-1zM28 12h1v1h-1zM31 12h1v1h-1zM34 12h1v1h-1zM36 12h1v1h-1zM4 13h4v1h-4zM13 13h2v1h-2zM19 13h1v1h-1zM21 13h1v1h-1zM23 13h3v1h-3zM27 13h2v1h-2zM30 13h1v1h-1zM33 13h1v1h-1zM36 13h1v1h-1zM4 14h4v1h-4zM9 14h2v1h-2zM12 14h1v1h-1zM14 14h1v1h-1zM16 14h8v1h-8zM25 14h3v1h-3zM30 14h1v1h-1zM33 14h2v1h-2zM36 14h1v1h-1zM6 15h1v1h-1zM8 15h2v1h-2zM11 15h1v1h-1zM13 15h2v1h-2zM18 15h2v1h-2zM23 15h2v1h-2zM26 15h1v1h-1zM31 15h3v1h-3zM7 16h1v1h-1zM10 16h1v1h-1zM13 16h1v1h-1zM17 16h4v1h-4zM28 16h1v1h-1zM30 16h2v1h-2zM35 16h2v1h-2zM4 17h1v1h-1zM6 17h1v1h-1zM8 17h1v1h-1zM13 17h2v1h-2zM17 17h2v1h-2zM20 17h1v1h-1zM22 17h2v1h-2zM26 17h2v1h-2zM30 17h2v1h-2zM33 17h1v1h-1zM35 17h2v1h-2zM6 18h1v1h-1zM8 18h1v1h-1zM10 18h2v1h-2zM14 18h1v1h-1zM17 18h2v1h-2zM20 18h1v1h-1zM23 18h1v1h-1zM25 18h1v1h-1zM27 18h1v1h-1zM32 18h1v1h-1zM34 18h1v1h-1zM36 18h1v1h-1zM4 19h1v1h-1zM7 19h1v1h-1zM9 19h1v1h-1zM11 19h2v1h-2zM14 19h1v1h-1zM16 19h1v1h-1zM19 19h2v1h-2zM22 19h2v1h-2zM26 19h1v1h-1zM29 19h5v1h-5zM4 20h1v1h-1zM9 20h4v1h-4zM15 20h1v1h-1zM20 20h1v1h-1zM24 20h1v1h-1zM30 20h2v1h-2zM35 20h1v1h-1zM4 21h2v1h-2zM7 21h1v1h-1zM11 21h1v1h-1zM13 21h3v1h-3zM17 21h1v1h-1zM19 21h3v1h-3zM23 21h8v1h-8zM33 21h1v1h-1zM35 21h2v1h-2zM4 22h3v1h-3zM9 22h4v1h-4zM16 22h1v1h-1zM18 22h2v1h-2zM21 22h7v1h-7zM29 22h1v1h-1zM31 22h1v1h-1zM33 22h2v1h-2zM36 22h1v1h-1zM4 23h3v1h-3zM9 23h1v1h-1zM11 23h5v1h-5zM17 23h1v1h-1zM20 23h1v1h-1zM24 23h1v1h-1zM26 23h1v1h-1zM29 23h1v1h-1zM32 23h2v1h-2zM35 23h2v1h-2zM6 24h2v1h-2zM9 24h3v1h-3zM13 24h2v1h-2zM19 24h1v1h-1zM22 24h1v1h-1zM24 24h1v1h-1zM27 24h1v1h-1zM30 24h2v1h-2zM5 25h1v1h-1zM8 25h2v1h-2zM13 25h2v1h-2zM16 25h3v1h-3zM21 25h1v1h-1zM23 25h2v1h-2zM27 25h2v1h-2zM30 25h1v1h-1zM33 25h1v1h-1zM36 25h1v1h-1zM4 26h2v1h-2zM7 26h1v1h-1zM9 26h2v1h-2zM13 26h1v1h-1zM17 26h3v1h-3zM21 26h3v1h-3zM25 26h1v1h-1zM27 26h5v1h-5zM33 26h2v1h-2zM36 26h1v1h-1zM7 27h1v1h-1zM14 27h4v1h-4zM22 27h1v1h-1zM24 27h1v1h-1zM27 27h1v1h-1zM29 27h2v1h-2zM33 27h1v1h-1zM4 28h8v1h-8zM14 28h4v1h-4zM19 28h1v1h-1zM24 28h1v1h-1zM27 28h7v1h-7zM35 28h1v1h-1zM12 29h1v1h-1zM16 29h10v1h-10zM28 29h1v1h-1zM32 29h1v1h-1zM36 29h1v1h-1zM4 30h7v1h-7zM12 30h1v1h-1zM14 30h1v1h-1zM18 30h3v1h-3zM23 30h1v1h-1zM25 30h1v1h-1zM28 30h1v1h-1zM30 30h1v1h-1zM32 30h5v1h-5zM4 31h1v1h-1zM10 31h1v1h-1zM14 31h3v1h-3zM18 31h1v1h-1zM22 31h1v1h-1zM27 31h2v1h-2zM32 31h2v1h-2zM35 31h2v1h-2zM4 32h1v1h-1zM6 32h3v1h-3zM10 32h1v1h-1zM14 32h2v1h-2zM18 32h1v1h-1zM20 32h3v1h-3zM24 32h1v1h-1zM26 32h7v1h-7zM4 33h1v1h-1zM6 33h3v1h-3zM10 33h1v1h-1zM14 33h3v1h-3zM20 33h1v1h-1zM23 33h2v1h-2zM29 33h1v1h-1zM31 33h3v1h-3zM35 33h2v1h-2zM4 34h1v1h-1zM6 34h3v1h-3zM10 34h1v1h-1zM12 34h1v1h-1zM14 34h1v1h-1zM16 34h2v1h-2zM20 34h2v1h-2zM23 34h1v1h-1zM25 34h3v1h-3zM29 34h1v1h-1zM31 34h2v1h-2zM34 34h3v1h-3zM4 35h1v1h-1zM10 35h1v1h-1zM14 35h1v1h-1zM17 35h4v1h-4zM24 35h1v1h-1zM26 35h1v1h-1zM28 35h2v1h-2zM31 35h3v1h-3zM4 36h7v1h-7zM12 36h1v1h-1zM14 36h1v1h-1zM17 36h2v1h-2zM20 36h1v1h-1zM28 36h1v1h-1zM31 36h2v1h-2zM36 36h1v1h-1z'/></svg><div style='font-size:.56rem;letter-spacing:.18em;text-transform:uppercase;color:#8f6f1d;margin-top:.4em'>Scan to open this book</div></div></div><div style='text-align:center;margin-top:26px;color:#8f6f1d;font-size:1.4rem'>❦</div><div class=pgn>· Page "+(i+1)+" of "+P.length+" ·</div></div>";
+var h="<div class=rom>"+p.r+"</div><div class=era>"+p.e+"</div><h3 class=ct>"+p.ti+"</h3><div class=dk>"+p.dk+"</div>";
+if(p.im)h+="<figure><div class=pw><img alt='"+p.ti+"' data-k='"+p.im.k+"' data-i='0'></div><figcaption>"+p.im.cap+"<span class=cred>"+CR+"</span></figcaption></figure>";
+h+="<div class=bd>";for(var k=0;k<p.b.length;k++){var it=p.b[k];h+=(typeof it==='string')?("<p>"+it+"</p>"):pqh(it);}h+="</div>";
+h+="<div class=chips>";for(k=0;k<p.ch.length;k++)h+="<span class=chip>"+p.ch[k]+"</span>";h+="</div>";
+if(cl)h+=hearH(cl);
+h+="<div class=pgn>· Page "+(i+1)+" of "+P.length+" ·</div>";return h;
+}
+function label(){var p=P[idx];var n=p.t==='c'?("Chapter "+p.r+" — "+p.ti):p.t==='g'?"A surprise guest…":p.t==='pro'?"Prologue":p.t==='made'?"How this book was made":"The final page";
+if(mq.matches){var b=idx&~1,hi=Math.min(b+2,P.length);return n+"<br>Spread "+(b/2+1)+" of "+Math.ceil(P.length/2)+" · pages "+(b+1)+"–"+hi;}
+return n+"<br>"+(idx+1)+" / "+P.length;}
+function wireImgs(){var imgs=R.querySelectorAll('.pw img[data-k]');for(var j=0;j<imgs.length;j++)(function(im){var srcs=IMS[im.dataset.k],pg=findP(im);
+if(pg&&pg.im&&pg.im.ps)im.style.objectPosition=pg.im.ps;
+im.onerror=function(){var n=(+im.dataset.i)+1;if(srcs[n]){im.dataset.i=n;im.src=srcs[n];}else if(pg)im.parentNode.innerHTML=plateH(pg.pl);};
+im.src=srcs[0];})(imgs[j]);}
+function findP(im){var f=im.closest?im.closest('.pg'):null;if(!f)return null;var n=f.getAttribute('data-pi');return P[+n]||null;}
+function wireClips(){var bs=R.querySelectorAll('.hear');for(var j=0;j<bs.length;j++)(function(b){b.onclick=function(){var box=b.nextElementSibling;
+if(box.firstChild){box.innerHTML='';b.textContent='▶ Hear it for real';return;}
+box.innerHTML="<iframe src='https://www.youtube-nocookie.com/embed/"+b.dataset.yt+"?rel=0' title='Official clip' allow='encrypted-media; picture-in-picture; fullscreen' allowfullscreen loading='lazy'></iframe>";
+b.textContent='✕ Hide the player';};})(bs[j]);}
+function render(){
+if(!opened){R.innerHTML=covH();
+document.getElementById('tyopen').onclick=open;
+document.getElementById('tybook').onclick=open;
+clearTimeout(timer);if(!everOpened)timer=setTimeout(open,5000);return;}
+var h;
+if(mq.matches){var b=idx&~1,L=P[b],Rt=P[b+1];
+h="<div class=bk id=tyst><div class='pg l' data-pi='"+b+"'>"+entryH(L,b)+"</div><div class=spn></div><div class='pg r' data-pi='"+(b+1)+"'>"+(Rt?entryH(Rt,b+1):"<div class=fin><b>❦</b><span>fin</span></div>")+"</div></div>";
+}else{var side=(idx%2===0)?'sr':'sl';
+h="<div class=bk id=tyst><div class='pg solo "+side+"' data-pi='"+idx+"'>"+entryH(P[idx],idx)+"</div></div>";}
+var atStart=(mq.matches?(idx&~1)===0:idx===0);
+h+="<div class=nav><button class=nb id=typ title='"+(atStart?"Close the book":"Previous page")+"'>❮</button><div class=nlab>"+label()+(atStart?"<br><span style='opacity:.55'>❮ closes the book</span>":"")+"</div><button class=nb id=tyn "+((mq.matches?(idx&~1)+2>=P.length:idx===P.length-1)?"disabled":"")+">❯</button></div>";
+R.innerHTML=h;
+wireImgs();wireClips();ensureU();
+document.getElementById('typ').onclick=function(){nav(-1);};
+document.getElementById('tyn').onclick=function(){nav(1);};
+var re=document.getElementById('tyre');if(re)re.onclick=function(){closeBook();};
+var st=document.getElementById('tyst'),sx=null,sy=null;
+st.addEventListener('click',function(e){
+if(e.target.closest&&e.target.closest('a,button,iframe,.hearbox'))return;
+var rc=st.getBoundingClientRect(),x=e.clientX-rc.left,th=mq.matches?rc.width*0.5:rc.width*0.33;
+nav(x<th?-1:1);});
+st.addEventListener('touchstart',function(e){sx=e.touches[0].clientX;sy=e.touches[0].clientY;},{passive:true});
+st.addEventListener('touchend',function(e){if(sx===null)return;var dx=e.changedTouches[0].clientX-sx,dy=e.changedTouches[0].clientY-sy;sx=null;if(Math.abs(dx)>55&&Math.abs(dx)>2*Math.abs(dy))nav(dx<0?1:-1);},{passive:true});
+}
+function nav(d){var n;
+if(anim)return;
+if(d<0&&(mq.matches?(idx&~1)===0:idx===0)){closeBook();return;}
+if(mq.matches){n=(idx&~1)+d*2;if(n<0)n=0;if(n>=P.length)n=(P.length-1)&~1;}
+else{n=Math.max(0,Math.min(P.length-1,idx+d));}
+if(n===idx)return;
+var fl=prepFlip(d);
+idx=n;render();
+if(fl)runFlip(fl);
+R.scrollIntoView({behavior:'smooth',block:'start'});}
+function closeBook(){opened=false;idx=0;render();R.scrollIntoView({behavior:'smooth',block:'start'});
+if(!rm.matches){var bk=document.getElementById('tybook');
+if(bk){anim=true;bk.classList.add('bclose');setTimeout(function(){bk.classList.remove('bclose');anim=false;},470);}}}
+function grab(el){return el.innerHTML.replace(/<iframe[\s\S]*?<\/iframe>/g,'').replace(/\sid=['"]?[\w-]+['"]?/g,'');}
+function prepFlip(d){
+if(rm.matches||!opened)return null;
+var st=document.getElementById('tyst');if(!st)return null;
+var o={d:d,solo:!mq.matches};
+if(o.solo){var s=st.querySelector('.pg.solo');if(!s)return null;o.out=grab(s);
+o.rad=(s.className.indexOf('sr')>=0)?'16px 3px 3px 16px':'3px 16px 16px 3px';}
+else{var l=st.querySelector('.pg.l'),r=st.querySelector('.pg.r');if(!l||!r)return null;
+o.out=grab(d>0?r:l);o.keep=grab(d>0?l:r);}
+return o;}
+function geo(el){return 'left:'+el.offsetLeft+'px;top:'+el.offsetTop+'px;width:'+el.offsetWidth+'px;height:'+el.offsetHeight+'px;';}
+function runFlip(o){
+var st=document.getElementById('tyst');if(!st)return;
+var nl,nr,box,back='';
+if(o.solo){box=st.querySelector('.pg.solo');if(!box)return;}
+else{nl=st.querySelector('.pg.l');nr=st.querySelector('.pg.r');if(!nl||!nr)return;
+box=o.d>0?nr:nl;back=grab(o.d>0?nl:nr);}
+anim=true;
+var RL='16px 3px 3px 16px',RR='3px 16px 16px 3px';
+var fr=o.solo?o.rad:(o.d>0?RR:RL),cr=(o.d>0?RL:RR);
+var lay=document.createElement('div');lay.className='flay';lay.setAttribute('style',geo(st));
+var h='';
+if(!o.solo)h+="<div class='ffc fcov' style='"+geo(o.d>0?nl:nr)+"border-radius:"+cr+"'>"+o.keep+"</div>";
+h+="<div class='leaf' style='"+geo(box)+"transform-origin:"+(o.d>0?'left':'right')+" center'><div class='ffc' style='border-radius:"+fr+"'>"+o.out+"</div>"+(back?"<div class='ffc ffb' style='border-radius:"+fr+"'>"+back+"</div>":"")+"</div>";
+lay.innerHTML=h;
+R.appendChild(lay);
+var leaf=lay.querySelector('.leaf');
+leaf.getBoundingClientRect();
+leaf.classList.add(o.d>0?'go':'gob');
+setTimeout(function(){if(lay.parentNode)lay.parentNode.removeChild(lay);anim=false;},640);}
+function open(){if(opened||anim)return;
+everOpened=true;clearTimeout(timer);
+var bk=document.getElementById('tybook');
+if(rm.matches||!bk){opened=true;idx=0;render();return;}
+anim=true;bk.classList.add('bopen');
+setTimeout(function(){anim=false;opened=true;idx=0;render();
+var st=document.getElementById('tyst');if(st)st.classList.add('fain');},620);}
+try{mq.addEventListener('change',function(){if(opened)render();});}catch(e){mq.addListener(function(){if(opened)render();});}
+var phW=0,uT=null;
+function uniformH(){
+if(!opened)return;
+var live=R.querySelector('.pg');if(!live)return;
+var w=live.getBoundingClientRect().width;if(!w)return;
+var meas=document.createElement('div');
+meas.style.cssText='position:absolute;left:-9999px;top:0;width:'+w+'px;visibility:hidden;pointer-events:none';
+R.appendChild(meas);
+var mx=0;
+for(var j=0;j<P.length;j++){
+meas.innerHTML="<div class=pg style='width:100%;min-height:0;transform:none'>"+entryH(P[j],j)+"</div>";
+var hh=meas.firstChild.offsetHeight;if(hh>mx)mx=hh;}
+R.removeChild(meas);
+if(mx)R.style.setProperty('--pgh',Math.ceil(mx)+'px');
+phW=w;}
+function ensureU(){if(!opened)return;var lp=R.querySelector('.pg');if(lp&&Math.abs(lp.getBoundingClientRect().width-phW)>1)uniformH();}
+window.addEventListener('resize',function(){clearTimeout(uT);uT=setTimeout(function(){phW=0;ensureU();},300);});
+if(document.fonts&&document.fonts.ready)document.fonts.ready.then(function(){phW=0;ensureU();});
+if(!keysOn){keysOn=true;window.addEventListener('keydown',function(e){
+if(!opened)return;
+if(e.key==='ArrowRight')nav(1);if(e.key==='ArrowLeft')nav(-1);});}
+render();
+})();
+</script>
+</main>
+</body>
+</html>
